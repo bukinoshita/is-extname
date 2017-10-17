@@ -1,13 +1,21 @@
 {
   "name": "is-extname",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Check file extension name",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/is-extname.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["file", "extension", "extname", "filetype", "type"],
-  "files": ["index.js"],
+  "keywords": [
+    "file",
+    "extension",
+    "extname",
+    "filetype",
+    "type"
+  ],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "xo && ava"
   },
@@ -17,6 +25,8 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"]
+    "extends": [
+      "prettier"
+    ]
   }
 }
