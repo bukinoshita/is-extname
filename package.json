@@ -1,0 +1,22 @@
+{
+  "name": "is-extname",
+  "version": "0.0.0",
+  "description": "Check file extension name",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/is-extname.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": ["file", "extension", "extname", "filetype", "type"],
+  "files": ["index.js"],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "eslint-config-prettier": "^2.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
+  }
+}
