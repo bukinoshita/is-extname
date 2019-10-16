@@ -20,9 +20,9 @@
     "test": "xo && ava"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "eslint-config-prettier": "^2.6.0",
-    "xo": "^0.18.2"
+    "ava": "0.22.0",
+    "eslint-config-prettier": "2.6.0",
+    "xo": "0.18.2"
   },
   "xo": {
     "extends": [
